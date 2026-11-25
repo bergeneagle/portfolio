@@ -45,6 +45,7 @@ header{position:sticky;top:0;z-index:10;background:#101116ed;backdrop-filter:blu
 .navlinks{display:flex;align-items:center;gap:24px;font-size:12px;font-weight:800;letter-spacing:.07em;text-transform:uppercase}
 .navlinks a:hover,.textlink:hover{color:var(--accent)}
 .light .textlink:hover{color:var(--olive)}
+.navlinks .li{background:var(--accent);color:var(--bg);padding:10px 14px;border-radius:3px}.navlinks .li:hover{color:var(--bg);opacity:.9}
 .navlinks .cv{background:var(--accent);color:var(--bg);padding:11px 16px;border-radius:3px}
 .navlinks .cv:hover{color:var(--bg)}
 
@@ -241,6 +242,7 @@ footer{padding:25px 0;font-size:12px;color:#9c9da9}
       <a href="#broadcast">Broadcast</a>
       <a href="#work">Work</a>
       <a href="#experience">Experience</a>
+      <a class="li" href="https://www.linkedin.com/in/ezraweinberger/" target="_blank" rel="noopener">LinkedIn ↗</a>
     </nav>
   </div>
 </header>
@@ -253,6 +255,7 @@ footer{padding:25px 0;font-size:12px;color:#9c9da9}
       <p>I'm a communications leader who started in the newsroom. I've worked in communications for more than a decade, producing a nationally syndicated radio show, placing stories, and advising executives on what to say when the stakes are high.</p>
       <div class="buttons">
         <a class="button primary" href="#about">About me ↓</a>
+        <a class="button" href="https://www.linkedin.com/in/ezraweinberger/" target="_blank" rel="noopener">Find me on LinkedIn ↗</a>
       </div>
     </div>
   </section>
@@ -287,6 +290,7 @@ footer{padding:25px 0;font-size:12px;color:#9c9da9}
           <div><dt>Strengths</dt><dd>Media relations, crisis communications, executive positioning, team leadership</dd></div>
           <div><dt>Education</dt><dd>B.A., Political Science, Yeshiva University, Cum Laude</dd></div>
           <div><dt>Location</dt><dd>New York Metro Area</dd></div>
+          <div><dt>LinkedIn</dt><dd><a class="textlink" href="https://www.linkedin.com/in/ezraweinberger/" target="_blank" rel="noopener">ezraweinberger ↗</a></dd></div>
         </dl>
       </div>
     </div>
@@ -562,6 +566,7 @@ footer{padding:25px 0;font-size:12px;color:#9c9da9}
 <footer>
   <div class="wrap foot">
     <span>© <span id="year">2026</span> Ezra Weinberger</span>
+    <a href="https://www.linkedin.com/in/ezraweinberger/" target="_blank" rel="noopener">Find me on LinkedIn ↗</a>
   </div>
 </footer>
 <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
